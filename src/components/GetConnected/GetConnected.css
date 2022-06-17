@@ -1,0 +1,40 @@
+.get_connected {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.gc_text {
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.gc_social {
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.gc_social div {
+    margin: 10px;
+}
+
+.whatsapp {
+    color: #25D366
+}
+
+.telegram {
+    color: #34B7F1
+}
+
+.facebook {
+    color: #4267B2
+}

@@ -1,0 +1,24 @@
+.tec__in__every__s {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 450px) {
+    
+}
+  
+  
+@media only screen and (min-width: 810px) {
+    
+}
+  
+  
+@media only screen and (min-width: 990px) {
+    .tec__in__every__s {
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 40px;
+    }
+
+} 

@@ -1,0 +1,42 @@
+.about__page {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+.a_para {
+    color: #999;
+}
+
+.a_head {
+    color: #00529b;
+}
+
+@media only screen and (min-width: 450px) {
+    
+}
+  
+  
+@media only screen and (min-width: 810px) {
+    
+}
+  
+  
+@media only screen and (min-width: 990px) {
+    .about__page {
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 40px;
+    }
+
+    .a_para {
+        font-size: 1.545rem;
+        color: #999;
+    }
+
+    .a_head {
+        font-size: 2.34rem;
+        color: #00529b;
+        font-weight: 700;
+    }
+} 

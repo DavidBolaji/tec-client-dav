@@ -1,0 +1,102 @@
+.mailing_list {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.mailing_list .mailing_list_image {
+    width: 100%;
+}
+
+.mailing_list .mailing_list_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mailing_list .mailing_list_text {
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fcb900;
+}
+
+.mailing_list .mailing_list_text h3 {
+    text-transform: uppercase;
+    color: #8a5d24;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.mailing_list .mailing_list_text p {
+    color: #8a5d24;
+}
+
+
+
+@media only screen and (min-width: 550px) {
+    
+}
+  
+  
+@media only screen and (min-width: 810px) {
+    .mailing_list {
+        flex-direction: row;
+        text-align: left;
+    }
+    .mailing_list .mailing_list_image {
+       flex: 0.5;
+    }
+    .mailing_list .mailing_list_text {
+        flex: 0.5;
+    }
+    .mailing_list .mailing_list_text h3 {
+        font-size: 1.245rem;
+    }
+
+    .mailing_list .mailing_list_text p {
+        font-size: 0.95rem;
+    }  
+}
+  
+  
+@media only screen and (min-width: 990px) {
+    .mailing_list {
+        flex-direction: row;
+        text-align: left;
+        height: 80vh;
+    }
+    .mailing_list .mailing_list_image {
+       flex: 0.5;
+    }
+    .mailing_list .mailing_list_text {
+        flex: 0.5;
+        
+
+        /* padding-right: 100px;
+        padding-left: 60px; */
+    }
+    .mailing_list .mailing_list_text h3 {
+        font-size: 2.245rem;
+        max-width: 550px;
+        margin: auto;
+    }
+
+    .mailing_list .mailing_list_text p {
+        font-size: 1rem;
+        max-width: 550px;
+        margin: auto;
+    }
+
+    .mailing_list .mailing_list_text .mailing_list_btn {
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+
+    }
+}
+  

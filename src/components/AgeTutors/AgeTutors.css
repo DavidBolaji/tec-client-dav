@@ -1,0 +1,98 @@
+.age_tutors {
+    text-align: center;
+    width: 100vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #edededd7;
+}
+
+.age_tutors h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #00529b;
+    font-weight: 600;
+}
+
+.age_tutors .group_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.age_tutors .group_container .group_one,
+.age_tutors .group_container .group_two,
+.age_tutors .group_container .group_two,
+.age_tutors .group_container .group_two  {
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    /* background-color: #999; */
+    /* justify-content: space-between; */
+}
+
+.age_tutors .group_container .group_one .left,
+.age_tutors .group_container .group_one .right,
+.age_tutors .group_container .group_two .left,
+.age_tutors .group_container .group_two .right {
+    flex: 0.4;
+    width: 125px;
+    height: 125px;
+    /* overflow: hidden; */
+    margin: auto;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.age_tutors .group_container .group_one .left h3,
+.age_tutors .group_container .group_one .right h3,
+.age_tutors .group_container .group_two .left h3,
+.age_tutors .group_container .group_two .right h3 {
+    color: #00529b;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.83rem;
+    cursor: pointer;
+}
+
+
+.age_tutors .group_container .group_one .left img,
+.age_tutors .group_container .group_one .right img,
+.age_tutors .group_container .group_two .left img,
+.age_tutors .group_container .group_two .right img {
+   object-fit: cover;
+   cursor: pointer;
+   width: 100px;
+   height: 100px;
+   display: grid;
+   margin: auto;
+   place-items: center;
+   /* height: 100%; */
+   margin-bottom: 10px;
+   border-radius: 500px;
+   /* height: 100%; */
+}
+
+/* .age_tutors .group_container .group_one .right {
+    flex: 0.3;
+} */
+
+
+@media only screen and (min-width: 550px) {
+    
+}
+  
+  
+@media only screen and (min-width: 810px) {
+    
+}
+  
+  
+@media only screen and (min-width: 990px) {
+    .age_tutors h2 {
+        font-size: 2.245rem;
+    }
+}

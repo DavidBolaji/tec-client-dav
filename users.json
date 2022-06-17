@@ -1,0 +1,152 @@
+[{
+  "_id": {
+    "$oid": "62477ead3abba242aeee0e4f"
+  },
+  "name": "Daniel",
+  "email": "david@gmail.com",
+  "role": "admin",
+  "password": "$2a$08$w6BCg109Sv9Nv4whA7muGuDmY7vK6JtjOc504lu53dEZSTDU9MJ.K",
+  "img": "http://res.cloudinary.com/dpi44zxlw/image/upload/v1652219058/tec-client/user/62477ead3abba242aeee0e4f.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1648852653431"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1655131557043"
+    }
+  },
+  "__v": 135,
+  "active": false,
+  "tokens": [
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjQ3N2VhZDNhYmJhMjQyYWVlZTBlNGYiLCJpYXQiOjE2NTAxOTIxMTN9.O4hZavOxiojCk_CkVq8h3oH8WCdxiyEcNOtICA7589w",
+      "_id": {
+        "$oid": "625beef11c3114e7826d4a09"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjQ3N2VhZDNhYmJhMjQyYWVlZTBlNGYiLCJpYXQiOjE2NTAyNzA3NTV9.X-KpZ6xTLGw5Dm9UcH7tk762a09HIRX2tW9S7I5zkW0",
+      "_id": {
+        "$oid": "625d2223aab35a71dd4642fa"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjQ3N2VhZDNhYmJhMjQyYWVlZTBlNGYiLCJpYXQiOjE2NTE5NDAwODR9.CURjT9UwyDfdbO3GYxVwdjsfuZ1hzVWz-4_jJspYHJc",
+      "_id": {
+        "$oid": "62769af4ab80c82cbff12a6e"
+      }
+    }
+  ],
+  "tags": [
+    "Tertiary"
+  ],
+  "description": ""
+},{
+  "_id": {
+    "$oid": "6287998c5bd37f587ecb36d8"
+  },
+  "name": "kelvin Ologunleko",
+  "description": "Creating a compelling company profile will help your customers understand your company beyond the basics. Ultimately, your company profile is what intrigues a new visitor to check out your products or",
+  "tags": [
+    "Biology",
+    "Government"
+  ],
+  "email": "kelvin@gmail.com",
+  "active": true,
+  "role": "user",
+  "password": "$2a$08$/j60rXV4rvw/9RMKtGY1NuyGmieIuHXjtc5e1.PTRqIsY7DKaPdt2",
+  "img": "http://res.cloudinary.com/dpi44zxlw/image/upload/v1653054330/tec-client/user/6287998c5bd37f587ecb36d8.png",
+  "tokens": [
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mjg3OTk4YzViZDM3ZjU4N2VjYjM2ZDgiLCJpYXQiOjE2NTMwNTM4MzZ9.OQJPWfuHuutU39n03-XZaNr9iZwsDpzH51JhfLeWZhM",
+      "_id": {
+        "$oid": "6287998c5bd37f587ecb36da"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1653053836786"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1655147661500"
+    }
+  },
+  "__v": 15
+},{
+  "_id": {
+    "$oid": "62a6fca6916ee85db12fb89c"
+  },
+  "name": "dan",
+  "description": "i am very skilled",
+  "tags": [
+    "Mathematics",
+    "English",
+    "Elementary",
+    "Biology"
+  ],
+  "email": "dan@gmail.com",
+  "active": true,
+  "role": "user",
+  "password": "$2a$08$4BeLnOSo4rDnTyxxHl9do.PprAnjbXJRAu8wZqcZqSQIAtW.Z.odG",
+  "img": "https://res.cloudinary.com/dpi44zxlw/image/upload/v1650191037/default_po39rq.png",
+  "tokens": [
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmE2ZmNhNjkxNmVlODVkYjEyZmI4OWMiLCJpYXQiOjE2NTUxMTA4MjJ9.pzyv0q9PYtkvydqMvFMffpP-0-_x0TfpUKmdoSAJyqA",
+      "_id": {
+        "$oid": "62a6fca6916ee85db12fb89e"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1655110822603"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1655111254142"
+    }
+  },
+  "__v": 4
+},{
+  "_id": {
+    "$oid": "62a7857e40aeee1ed2660524"
+  },
+  "name": "kelv",
+  "description": "Creating a compelling company profile will help your customers understand your company beyond the basics. Ultimately, your company profile is what intrigues a new visitor to check out your products or",
+  "tags": [
+    "High school",
+    "English",
+    "Mathematics",
+    "Chemistry"
+  ],
+  "email": "kelvin1@gmail.com",
+  "active": true,
+  "role": "user",
+  "password": "$2a$08$/j60rXV4rvw/9RMKtGY1NuyGmieIuHXjtc5e1.PTRqIsY7DKaPdt2",
+  "img": "http://res.cloudinary.com/dpi44zxlw/image/upload/v1653054330/tec-client/user/6287998c5bd37f587ecb36d8.png",
+  "tokens": [
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mjg3OTk4YzViZDM3ZjU4N2VjYjM2ZDgiLCJpYXQiOjE2NTMwNTM4MzZ9.OQJPWfuHuutU39n03-XZaNr9iZwsDpzH51JhfLeWZhM",
+      "_id": {
+        "$oid": "6287998c5bd37f587ecb36da"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1653053836786"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1653055747987"
+    }
+  },
+  "__v": 8
+}]

@@ -1,0 +1,131 @@
+
+.contact__social {
+    background-color: #00529b;
+    padding: 40px 25px;
+}
+
+.contact__social > * {
+    margin-bottom: 25px;
+}
+
+.contact__social h2 {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+.contact__social span {
+    color: #fff;
+}
+
+
+.contact__social div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    /* background-color: aqua; */
+    flex-direction: row;
+    cursor: pointer;
+    width: 40%;
+}
+
+.contact__meet {
+    padding: 40px 25px;
+}
+
+.contact__meet > * {
+    margin-bottom: 25px;
+}
+
+.contact__meet h2 {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.01em;
+    color: #00529b;
+}
+
+.contact__meet div {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    flex-direction: row;
+    cursor: pointer;
+    /* width: 70%; */
+}
+
+.contact__meet span {
+    transform: translateX(28px);
+}
+
+
+.contact__message {
+    background-color: #00529b;
+    padding: 40px 25px; 
+}
+
+.contact__message > * {
+    margin-bottom: 25px;
+}
+
+.contact__message input {
+    border: none;
+    outline: none;
+    background-color: #00529b;
+    color: #fff;
+    white-space: nowrap;
+    font-weight: 700;
+    /* width: 50px; */
+}
+
+.contact__message h2 {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+.contact__message p {
+    color: #fff;
+    letter-spacing: 0.01em;
+    font-size: 16px;
+}
+
+.contact__message div {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    flex-direction: row;
+    cursor: pointer;
+    /* width: 70%; */
+}
+
+@media only screen and (min-width: 550px) {
+    
+}
+  
+  
+/* @media only screen and (min-width: 810px) {
+    
+} */
+  
+  
+@media only screen and (min-width: 990px) {
+    .contact {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    
+
+    .contact__message h2 {
+        font-size: 20px !important;
+    }
+
+    .contact__message p {
+        font-size: 16px !important;
+    }
+
+    
+}

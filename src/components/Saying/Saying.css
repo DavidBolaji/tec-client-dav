@@ -1,0 +1,112 @@
+.saying {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    /* overflow-x: hidden; */
+}
+
+.saying q {
+    display: block;
+}
+
+.saying .saying_image {
+    width: 100%;
+}
+
+.saying .saying_image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.saying .saying_text {
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #00529b;
+}
+
+.saying .saying_text h3 {
+    text-transform: uppercase;
+    color: #ffc525;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.saying .saying_text q {
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 0.85rem;
+}
+
+.saying .saying_text h5 {
+    text-align: right;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+@media only screen and (min-width: 550px) {
+    
+}
+  
+  
+@media only screen and (min-width: 810px) {
+    .saying {
+        flex-direction: row;
+        /* height: 80vh; */
+    }
+    .saying .saying_text {
+        padding-left: 40px; 
+        padding-right: 40px;
+        flex: 0.5;
+    }
+
+    .saying .saying_image {
+        flex: 0.5;
+    }
+
+    .saying .saying_text h3 {
+        font-size: 1.245rem;
+    }
+
+    .saying .saying_text q {
+        font-size: 0.95rem;
+    }
+
+    .saying .saying_image img {
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+    }
+}
+  
+  
+@media only screen and (min-width: 990px) {
+    .saying {
+        flex-direction: row;
+        height: 80vh;
+    }
+    .saying .saying_text {
+        padding-left: 40px;
+        padding-right: 100px;
+      }
+    .saying .saying_text h3 {
+        font-size: 2.245rem;
+    }
+
+    .saying .saying_text q {
+        font-size: 1rem;
+    }
+    .saying .saying_image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .saying .saying_image img {
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+    }
+}
+  
